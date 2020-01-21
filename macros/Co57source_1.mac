@@ -1,0 +1,34 @@
+/control/verbose 2
+/run/verbose 2
+/event/verbose 2
+/tracking/verbose 2
+
+
+/process/em/deexcitation World true true true
+/process/em/fluo true
+/process/em/auger true
+/process/em/pixe true
+/run/initialize
+
+#/xe/gun/particle ion
+#/xe/gun/ion 27 57 0
+#/grdm/nucleusLimits 57 57 27 27
+
+
+
+/xe/gun/type Point
+
+#/xe/gun/type Volume
+#/xe/gun/shape Sphere
+#/xe/gun/radius 0.5 mm
+
+/xe/gun/angtype iso
+
+/xe/gun/center 129.0 0.0 0.0 mm
+
+/xe/gun/energy 0 keV
+/xe/gun/particle ion
+#/xe/gun/ion 27 57 0 0
+
+/xe/gun/ion 27 57 0
+/grdm/nucleusLimits 57 57 27 27

@@ -1,0 +1,24 @@
+/control/verbose 0
+/run/verbose 0
+/event/verbose 0
+/tracking/verbose 0
+
+/xe/gun/type Volume
+/xe/gun/shape Sphere
+/xe/gun/radius 0.5 mm
+/xe/gun/angtype direction
+
+/xe/gun/center 0.0 328.0 1015.0 mm
+
+/xe/gun/direction 0 -1 0
+
+/xe/gun/energy 0 keV
+/xe/gun/particle ion
+/xe/gun/ion 55 137 0 0
+
+#collimator position
+#| > X:                   0 mm
+#| > Y:                   328 mm
+#| > Z:                   1015 mm
+
+#/run/beamOn 100000

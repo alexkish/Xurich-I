@@ -1,0 +1,15 @@
+#############
+# VERBOSITY #
+#############
+/control/verbose 0
+/run/verbose 0
+/event/verbose 0
+/tracking/verbose 0
+
+#######
+# RUN #
+#######
+#/xe/gun/particle gamma
+/xe/gun/extfile Cs137gamma_1um.dat
+#on schroedinger
+#/xe/gun/extfile /home/physik/alexkish/geant4/Xe100/macros/muons/Cs137gamma_1um.dat
